@@ -2371,6 +2371,7 @@ input, select, textarea {
 	table {
 		margin: 0 0 0 0;
 		width: 100%;
+		border-collapse: collapse;
 	}
 
 		/* table tbody tr {
@@ -2382,7 +2383,10 @@ input, select, textarea {
 			/* table tbody tr:nth-child(2n + 1) {
 				background-color: #f7f7f7;
 			} */
-
+		table tr {
+			border-bottom: 0.5pt black;
+		}
+		
 		table td {
 			padding: 0.2em 0.2em;
 		}
@@ -2428,6 +2432,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+		
 
 /* Button */
 
