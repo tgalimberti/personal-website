@@ -2362,16 +2362,19 @@ input, select, textarea {
 		}
 
 /* Table */
+	
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		
 	}
 
 	table {
 		margin: 0 0 0 0;
 		width: 100%;
 		border-collapse: collapse;
+		transition: all .5s ease;
 	}
 
 		/* table tbody tr {
